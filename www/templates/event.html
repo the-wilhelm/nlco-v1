@@ -1,0 +1,36 @@
+<ion-view title="{{ tile.title }}">
+	<ion-content has-header="true" padding="true">
+		<div class="list card">
+
+		  <div class="item item-avatar">
+		    <h2>{{ tile.title }}</h2>
+		  </div>
+
+		  <div class="item item-body">
+		    <img class="full-image" src="http://d2mvfcizvhl57q.cloudfront.net/media/v1/{{ tile.media_id }}/900c.jpg">
+		    <p>
+		      {{ tile.description }}
+		    </p>
+		    <p>
+		      <a href="#" class="subdued">{{ tile.likes }} Like</a>
+		    </p>
+		  </div>
+
+		  <div class="item tabs tabs-secondary tabs-icon-left">
+		    <a class="tab-item" href="#">
+		      <i class="icon ion-thumbsup"></i>
+		      Like
+		    </a>
+		    <a class="tab-item" href="#">
+		      <i class="icon ion-chatbox"></i>
+		      Comment
+		    </a>
+		    <a class="tab-item" href="#">
+		      <i class="icon ion-share"></i>
+		      Share
+		    </a>
+		  </div>
+
+		</div>
+	</ion-content>
+</ion-view>

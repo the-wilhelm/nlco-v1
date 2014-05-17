@@ -1,0 +1,225 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'ios-sim' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose cache add [ 'ios-sim', null ]
+5 verbose cache add name=undefined spec="ios-sim" args=["ios-sim",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'ios-sim',
+6 verbose parsed url   path: 'ios-sim',
+6 verbose parsed url   href: 'ios-sim' }
+7 silly lockFile 6af69284-ios-sim ios-sim
+8 verbose lock ios-sim /Users/dkadesigngroup/.npm/6af69284-ios-sim.lock
+9 silly lockFile 6af69284-ios-sim ios-sim
+10 silly lockFile 6af69284-ios-sim ios-sim
+11 verbose addNamed [ 'ios-sim', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 03dce7cc-ios-sim ios-sim@
+14 verbose lock ios-sim@ /Users/dkadesigngroup/.npm/03dce7cc-ios-sim.lock
+15 silly addNameRange { name: 'ios-sim', range: '*', hasData: false }
+16 verbose url raw ios-sim
+17 verbose url resolving [ 'https://registry.npmjs.org/', './ios-sim' ]
+18 verbose url resolved https://registry.npmjs.org/ios-sim
+19 info trying registry request attempt 1 at 15:08:29
+20 http GET https://registry.npmjs.org/ios-sim
+21 http 200 https://registry.npmjs.org/ios-sim
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Wed, 19 Mar 2014 20:02:45 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+22 silly registry.get     etag: '"571Q8UM0F560U7OCUAII7Y3C0"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     'cache-control': 'max-age=1',
+22 silly registry.get     'content-length': '6505',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     age: '1934',
+22 silly registry.get     'x-served-by': 'cache-v42-ASH, cache-c101-CHI',
+22 silly registry.get     'x-cache': 'MISS, MISS',
+22 silly registry.get     'x-cache-hits': '0, 0',
+22 silly registry.get     'x-timer': 'S1395257430.767604351,VS0,VS-985,VE-881,VE1934614',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'ios-sim', range: '*', hasData: true }
+24 silly addNameRange versions [ 'ios-sim', [ '1.8.0', '1.8.1', '1.8.2', '1.9.0' ] ]
+25 verbose addNamed [ 'ios-sim', '1.9.0' ]
+26 verbose addNamed [ '1.9.0', '1.9.0' ]
+27 silly lockFile 08b821e4-ios-sim-1-9-0 ios-sim@1.9.0
+28 verbose lock ios-sim@1.9.0 /Users/dkadesigngroup/.npm/08b821e4-ios-sim-1-9-0.lock
+29 silly lockFile ed580e00-js-org-ios-sim-ios-sim-1-9-0-tgz https://registry.npmjs.org/ios-sim/-/ios-sim-1.9.0.tgz
+30 verbose lock https://registry.npmjs.org/ios-sim/-/ios-sim-1.9.0.tgz /Users/dkadesigngroup/.npm/ed580e00-js-org-ios-sim-ios-sim-1-9-0-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/ios-sim/-/ios-sim-1.9.0.tgz',
+31 verbose addRemoteTarball   'bedbc80a175960fdb0b5a95c370c81f2ffcb4ca4' ]
+32 info retry fetch attempt 1 at 15:08:30
+33 verbose fetch to= /Users/dkadesigngroup/tmp/npm-41403-JXQDV0YA/1395259710459-0.8916002328041941/tmp.tgz
+34 http GET https://registry.npmjs.org/ios-sim/-/ios-sim-1.9.0.tgz
+35 http 200 https://registry.npmjs.org/ios-sim/-/ios-sim-1.9.0.tgz
+36 verbose tar unpack /Users/dkadesigngroup/tmp/npm-41403-JXQDV0YA/1395259710459-0.8916002328041941/tmp.tgz
+37 silly lockFile bba864e5-10459-0-8916002328041941-package tar:///Users/dkadesigngroup/tmp/npm-41403-JXQDV0YA/1395259710459-0.8916002328041941/package
+38 verbose lock tar:///Users/dkadesigngroup/tmp/npm-41403-JXQDV0YA/1395259710459-0.8916002328041941/package /Users/dkadesigngroup/.npm/bba864e5-10459-0-8916002328041941-package.lock
+39 silly lockFile ae8bdd7a-10459-0-8916002328041941-tmp-tgz tar:///Users/dkadesigngroup/tmp/npm-41403-JXQDV0YA/1395259710459-0.8916002328041941/tmp.tgz
+40 verbose lock tar:///Users/dkadesigngroup/tmp/npm-41403-JXQDV0YA/1395259710459-0.8916002328041941/tmp.tgz /Users/dkadesigngroup/.npm/ae8bdd7a-10459-0-8916002328041941-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry LICENSE
+46 silly gunzTarPerm extractEntry DVTiPhoneSimulatorRemoteClient/DVTiPhoneSimulatorRemoteClient.h
+47 silly gunzTarPerm extractEntry README.template.md
+48 silly gunzTarPerm extractEntry Rakefile
+49 silly gunzTarPerm extractEntry Source/.npmignore
+50 silly gunzTarPerm extractEntry Source/NSString+expandPath.h
+51 silly gunzTarPerm extractEntry Source/NSString+expandPath.m
+52 silly gunzTarPerm extractEntry Source/iPhoneSimulator.h
+53 silly gunzTarPerm extractEntry Source/iPhoneSimulator.m
+54 silly gunzTarPerm extractEntry Source/main.m
+55 silly gunzTarPerm extractEntry Source/nsprintf.h
+56 silly gunzTarPerm extractEntry Source/nsprintf.m
+57 silly gunzTarPerm extractEntry Source/version.h
+58 silly gunzTarPerm extractEntry ios-sim.xcodeproj/.npmignore
+59 silly gunzTarPerm extractEntry ios-sim.xcodeproj/project.pbxproj
+60 silly gunzTarPerm extractEntry ios-sim.xcodeproj/xcshareddata/xcschemes/ios-sim.xcscheme
+61 silly gunzTarPerm extractEntry ios-sim_Prefix.pch
+62 silly lockFile bba864e5-10459-0-8916002328041941-package tar:///Users/dkadesigngroup/tmp/npm-41403-JXQDV0YA/1395259710459-0.8916002328041941/package
+63 silly lockFile bba864e5-10459-0-8916002328041941-package tar:///Users/dkadesigngroup/tmp/npm-41403-JXQDV0YA/1395259710459-0.8916002328041941/package
+64 silly lockFile ae8bdd7a-10459-0-8916002328041941-tmp-tgz tar:///Users/dkadesigngroup/tmp/npm-41403-JXQDV0YA/1395259710459-0.8916002328041941/tmp.tgz
+65 silly lockFile ae8bdd7a-10459-0-8916002328041941-tmp-tgz tar:///Users/dkadesigngroup/tmp/npm-41403-JXQDV0YA/1395259710459-0.8916002328041941/tmp.tgz
+66 verbose tar pack [ '/Users/dkadesigngroup/.npm/ios-sim/1.9.0/package.tgz',
+66 verbose tar pack   '/Users/dkadesigngroup/tmp/npm-41403-JXQDV0YA/1395259710459-0.8916002328041941/package' ]
+67 verbose tarball /Users/dkadesigngroup/.npm/ios-sim/1.9.0/package.tgz
+68 verbose folder /Users/dkadesigngroup/tmp/npm-41403-JXQDV0YA/1395259710459-0.8916002328041941/package
+69 silly lockFile bba864e5-10459-0-8916002328041941-package tar:///Users/dkadesigngroup/tmp/npm-41403-JXQDV0YA/1395259710459-0.8916002328041941/package
+70 verbose lock tar:///Users/dkadesigngroup/tmp/npm-41403-JXQDV0YA/1395259710459-0.8916002328041941/package /Users/dkadesigngroup/.npm/bba864e5-10459-0-8916002328041941-package.lock
+71 silly lockFile b023737d-up-npm-ios-sim-1-9-0-package-tgz tar:///Users/dkadesigngroup/.npm/ios-sim/1.9.0/package.tgz
+72 verbose lock tar:///Users/dkadesigngroup/.npm/ios-sim/1.9.0/package.tgz /Users/dkadesigngroup/.npm/b023737d-up-npm-ios-sim-1-9-0-package-tgz.lock
+73 silly lockFile bba864e5-10459-0-8916002328041941-package tar:///Users/dkadesigngroup/tmp/npm-41403-JXQDV0YA/1395259710459-0.8916002328041941/package
+74 silly lockFile bba864e5-10459-0-8916002328041941-package tar:///Users/dkadesigngroup/tmp/npm-41403-JXQDV0YA/1395259710459-0.8916002328041941/package
+75 silly lockFile b023737d-up-npm-ios-sim-1-9-0-package-tgz tar:///Users/dkadesigngroup/.npm/ios-sim/1.9.0/package.tgz
+76 silly lockFile b023737d-up-npm-ios-sim-1-9-0-package-tgz tar:///Users/dkadesigngroup/.npm/ios-sim/1.9.0/package.tgz
+77 silly lockFile 8c736e2d-ngroup-npm-ios-sim-1-9-0-package /Users/dkadesigngroup/.npm/ios-sim/1.9.0/package
+78 verbose lock /Users/dkadesigngroup/.npm/ios-sim/1.9.0/package /Users/dkadesigngroup/.npm/8c736e2d-ngroup-npm-ios-sim-1-9-0-package.lock
+79 silly lockFile 8c736e2d-ngroup-npm-ios-sim-1-9-0-package /Users/dkadesigngroup/.npm/ios-sim/1.9.0/package
+80 silly lockFile 8c736e2d-ngroup-npm-ios-sim-1-9-0-package /Users/dkadesigngroup/.npm/ios-sim/1.9.0/package
+81 verbose tar unpack /Users/dkadesigngroup/.npm/ios-sim/1.9.0/package.tgz
+82 silly lockFile f7ce002a-ngroup-npm-ios-sim-1-9-0-package tar:///Users/dkadesigngroup/.npm/ios-sim/1.9.0/package
+83 verbose lock tar:///Users/dkadesigngroup/.npm/ios-sim/1.9.0/package /Users/dkadesigngroup/.npm/f7ce002a-ngroup-npm-ios-sim-1-9-0-package.lock
+84 silly lockFile b023737d-up-npm-ios-sim-1-9-0-package-tgz tar:///Users/dkadesigngroup/.npm/ios-sim/1.9.0/package.tgz
+85 verbose lock tar:///Users/dkadesigngroup/.npm/ios-sim/1.9.0/package.tgz /Users/dkadesigngroup/.npm/b023737d-up-npm-ios-sim-1-9-0-package-tgz.lock
+86 silly gunzTarPerm modes [ '755', '644' ]
+87 silly gunzTarPerm extractEntry package.json
+88 silly gunzTarPerm extractEntry .npmignore
+89 silly gunzTarPerm extractEntry README.md
+90 silly gunzTarPerm extractEntry LICENSE
+91 silly gunzTarPerm extractEntry DVTiPhoneSimulatorRemoteClient/DVTiPhoneSimulatorRemoteClient.h
+92 silly gunzTarPerm extractEntry README.template.md
+93 silly gunzTarPerm extractEntry Rakefile
+94 silly gunzTarPerm extractEntry Source/.npmignore
+95 silly gunzTarPerm extractEntry Source/NSString+expandPath.h
+96 silly gunzTarPerm extractEntry Source/NSString+expandPath.m
+97 silly gunzTarPerm extractEntry Source/iPhoneSimulator.h
+98 silly gunzTarPerm extractEntry Source/iPhoneSimulator.m
+99 silly gunzTarPerm extractEntry Source/main.m
+100 silly gunzTarPerm extractEntry Source/nsprintf.h
+101 silly gunzTarPerm extractEntry Source/nsprintf.m
+102 silly gunzTarPerm extractEntry Source/version.h
+103 silly gunzTarPerm extractEntry ios-sim.xcodeproj/.npmignore
+104 silly gunzTarPerm extractEntry ios-sim.xcodeproj/project.pbxproj
+105 silly gunzTarPerm extractEntry ios-sim.xcodeproj/xcshareddata/xcschemes/ios-sim.xcscheme
+106 silly gunzTarPerm extractEntry ios-sim_Prefix.pch
+107 silly lockFile f7ce002a-ngroup-npm-ios-sim-1-9-0-package tar:///Users/dkadesigngroup/.npm/ios-sim/1.9.0/package
+108 silly lockFile f7ce002a-ngroup-npm-ios-sim-1-9-0-package tar:///Users/dkadesigngroup/.npm/ios-sim/1.9.0/package
+109 silly lockFile b023737d-up-npm-ios-sim-1-9-0-package-tgz tar:///Users/dkadesigngroup/.npm/ios-sim/1.9.0/package.tgz
+110 silly lockFile b023737d-up-npm-ios-sim-1-9-0-package-tgz tar:///Users/dkadesigngroup/.npm/ios-sim/1.9.0/package.tgz
+111 verbose chmod /Users/dkadesigngroup/.npm/ios-sim/1.9.0/package.tgz 644
+112 verbose chown /Users/dkadesigngroup/.npm/ios-sim/1.9.0/package.tgz [ 503, 20 ]
+113 silly lockFile ed580e00-js-org-ios-sim-ios-sim-1-9-0-tgz https://registry.npmjs.org/ios-sim/-/ios-sim-1.9.0.tgz
+114 silly lockFile ed580e00-js-org-ios-sim-ios-sim-1-9-0-tgz https://registry.npmjs.org/ios-sim/-/ios-sim-1.9.0.tgz
+115 silly lockFile 08b821e4-ios-sim-1-9-0 ios-sim@1.9.0
+116 silly lockFile 08b821e4-ios-sim-1-9-0 ios-sim@1.9.0
+117 silly lockFile 03dce7cc-ios-sim ios-sim@
+118 silly lockFile 03dce7cc-ios-sim ios-sim@
+119 silly resolved [ { name: 'ios-sim',
+119 silly resolved     version: '1.9.0',
+119 silly resolved     description: 'launch iOS apps into the iOS Simulator from the command line (Xcode 5.1)',
+119 silly resolved     main: 'ios-sim',
+119 silly resolved     scripts: { preinstall: 'rake build' },
+119 silly resolved     bin: { 'ios-sim': 'build/Release/ios-sim' },
+119 silly resolved     repository: { type: 'git', url: 'https://github.com/phonegap/ios-sim' },
+119 silly resolved     keywords: [ 'ios-sim', 'iOS Simulator' ],
+119 silly resolved     author: { name: 'Landon Fuller, Jeff Haynie, Eloy Duran, Shazron Abdullah' },
+119 silly resolved     license: 'MIT',
+119 silly resolved     readme: 'ios-sim\n=======\n\nThe ios-sim tool is a command-line utility that launches an iOS application on\nthe iOS Simulator. This allows for niceties such as automated testing without\nhaving to open XCode.\n\nFeatures\n--------\n\n* Choose the device family to simulate, i.e. iPhone or iPad.\n* Setup environment variables.\n* Pass arguments to the application.\n* See the stdout and stderr, or redirect them to files.\n\nSee the `--help` option for more info.\n\nInstallation\n------------\n\nWith node.js (at least 0.10.20):\n\n    $ sudo npm install ios-sim -g\n\nDownload an archive:\n\n    $ curl -L https://github.com/phonegap/ios-sim/zipball/1.8.2 -o ios-sim-1.8.2.zip\n    $ unzip ios-sim-1.8.2.zip\n\nOr from a git clone:\n\n    $ git clone git://github.com/phonegap/ios-sim.git\n\nThen build and install from the source root:\n\n    $ rake install prefix=/usr/local/\n\n\nDevelopment\n-----------\n\nWhen you want to release a version, do:\n\n    $ rake version:bump v=NEW_VERSION\n    $ rake release\n    $ npm version NEW_VERSION -m "Updated to npm version %s"\n    \ntmux\n-----\n\nTo get ios-sim to launch correctly within tmux use the reattach-to-user-namespace wrapper.\n\n```\nreattach-to-user-namespace ios-sim launch ./build/MyTestApp.app\n```\n*source:* https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard\n\n*brew:*  ```brew install reattach-to-user-namespace```\n\nLicense\n-------\n\nOriginal author: Landon Fuller <landonf@plausiblelabs.com>\nCopyright (c) 2008-2011 Plausible Labs Cooperative, Inc.\nAll rights reserved.\n\nThis project is available under the MIT license. See [LICENSE][license].\n\n[license]: https://github.com/phonegap/ios-sim/blob/master/LICENSE\n',
+119 silly resolved     readmeFilename: 'README.md',
+119 silly resolved     bugs: { url: 'https://github.com/phonegap/ios-sim/issues' },
+119 silly resolved     homepage: 'https://github.com/phonegap/ios-sim',
+119 silly resolved     _id: 'ios-sim@1.9.0',
+119 silly resolved     dist: { shasum: '339b167238f5cb7628422e4cbc230f22669a10b5' },
+119 silly resolved     _from: 'ios-sim@',
+119 silly resolved     _resolved: 'https://registry.npmjs.org/ios-sim/-/ios-sim-1.9.0.tgz' } ]
+120 info install ios-sim@1.9.0 into /usr/local/lib
+121 info installOne ios-sim@1.9.0
+122 info /usr/local/lib/node_modules/ios-sim unbuild
+123 verbose tar unpack /Users/dkadesigngroup/.npm/ios-sim/1.9.0/package.tgz
+124 silly lockFile 5027580f-r-local-lib-node-modules-ios-sim tar:///usr/local/lib/node_modules/ios-sim
+125 verbose lock tar:///usr/local/lib/node_modules/ios-sim /Users/dkadesigngroup/.npm/5027580f-r-local-lib-node-modules-ios-sim.lock
+126 silly lockFile b023737d-up-npm-ios-sim-1-9-0-package-tgz tar:///Users/dkadesigngroup/.npm/ios-sim/1.9.0/package.tgz
+127 verbose lock tar:///Users/dkadesigngroup/.npm/ios-sim/1.9.0/package.tgz /Users/dkadesigngroup/.npm/b023737d-up-npm-ios-sim-1-9-0-package-tgz.lock
+128 silly gunzTarPerm modes [ '755', '644' ]
+129 silly gunzTarPerm extractEntry package.json
+130 silly gunzTarPerm extractEntry .npmignore
+131 silly gunzTarPerm extractEntry README.md
+132 silly gunzTarPerm extractEntry LICENSE
+133 silly gunzTarPerm extractEntry DVTiPhoneSimulatorRemoteClient/DVTiPhoneSimulatorRemoteClient.h
+134 silly gunzTarPerm extractEntry README.template.md
+135 silly gunzTarPerm extractEntry Rakefile
+136 silly gunzTarPerm extractEntry Source/.npmignore
+137 silly gunzTarPerm extractEntry Source/NSString+expandPath.h
+138 silly gunzTarPerm extractEntry Source/NSString+expandPath.m
+139 silly gunzTarPerm extractEntry Source/iPhoneSimulator.h
+140 silly gunzTarPerm extractEntry Source/iPhoneSimulator.m
+141 silly gunzTarPerm extractEntry Source/main.m
+142 silly gunzTarPerm extractEntry Source/nsprintf.h
+143 silly gunzTarPerm extractEntry Source/nsprintf.m
+144 silly gunzTarPerm extractEntry Source/version.h
+145 silly gunzTarPerm extractEntry ios-sim.xcodeproj/.npmignore
+146 silly gunzTarPerm extractEntry ios-sim.xcodeproj/project.pbxproj
+147 silly gunzTarPerm extractEntry ios-sim.xcodeproj/xcshareddata/xcschemes/ios-sim.xcscheme
+148 silly gunzTarPerm extractEntry ios-sim_Prefix.pch
+149 silly lockFile 5027580f-r-local-lib-node-modules-ios-sim tar:///usr/local/lib/node_modules/ios-sim
+150 silly lockFile 5027580f-r-local-lib-node-modules-ios-sim tar:///usr/local/lib/node_modules/ios-sim
+151 silly lockFile b023737d-up-npm-ios-sim-1-9-0-package-tgz tar:///Users/dkadesigngroup/.npm/ios-sim/1.9.0/package.tgz
+152 silly lockFile b023737d-up-npm-ios-sim-1-9-0-package-tgz tar:///Users/dkadesigngroup/.npm/ios-sim/1.9.0/package.tgz
+153 info preinstall ios-sim@1.9.0
+154 verbose unsafe-perm in lifecycle false
+155 info ios-sim@1.9.0 Failed to exec preinstall script
+156 info /usr/local/lib/node_modules/ios-sim unbuild
+157 info preuninstall ios-sim@1.9.0
+158 info uninstall ios-sim@1.9.0
+159 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild ios-sim@1.9.0
+160 verbose /usr/local/bin,[object Object] binRoot
+161 info postuninstall ios-sim@1.9.0
+162 error ios-sim@1.9.0 preinstall: `rake build`
+162 error Exit status 1
+163 error Failed at the ios-sim@1.9.0 preinstall script.
+163 error This is most likely a problem with the ios-sim package,
+163 error not with npm itself.
+163 error Tell the author that this fails on your system:
+163 error     rake build
+163 error You can get their info via:
+163 error     npm owner ls ios-sim
+163 error There is likely additional logging output above.
+164 error System Darwin 11.4.2
+165 error command "node" "/usr/local/bin/npm" "install" "-g" "ios-sim"
+166 error cwd /Applications/MAMP/htdocs/nlco-v1
+167 error node -v v0.10.26
+168 error npm -v 1.4.3
+169 error code ELIFECYCLE
+170 verbose exit [ 1, true ]
